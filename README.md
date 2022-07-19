@@ -34,7 +34,7 @@ Project based on 3-layer architecture:
 2. Install and Configure Apache Tomcat 9.
     * Use taxi_service:war exploded.
     * Leave @Application contex@ : "/".
-3. Install MySQL and MySQL Workbench.
+3. Install MySQL and MySQL Workbench(is not necessary, you can use another).
 4. Initialize the MySQL database using the init.sql file.
     * In MySQL Workbench create and open new connection with your credentials or use the existing one, 
       open src/main/resources/init_db.sql, File->Open SQL script and execute this script Query->Execute.
